@@ -1,0 +1,39 @@
+{
+  "name": "app",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "webpack --progress --watch --hot"
+  },
+  "dependencies": {
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^1.0.0",
+    "less-loader": "^4.1.0",
+    "path": "^0.12.7",
+    "style-loader": "^0.22.1",
+    "webpack": "^4.17.0",
+    "webpack-cli": "^3.1.0"
+  },
+  "description": "交通类数据可视化实现 # 技术选用(暂定) React,MapBoxGL,react-map-gl,deck.gl,ect # 项目参照 暂无 # 需求分析 暂无 # 项目设计 暂无 # 项目进度 还只是个想法 ：）",
+  "main": "webpack.config.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Duringzha/v-react-traffic.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Duringzha/v-react-traffic/issues"
+  },
+  "homepage": "https://github.com/Duringzha/v-react-traffic#readme"
+}
