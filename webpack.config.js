@@ -13,10 +13,15 @@ module.exports = {
                 use: {
                     loader: 'babel-loader',
                     options: {
-                        presets: ['es2015', 'react'],
+                        presets: ['es2015', 'react','stage-2'],
                     }
                 },
                 exclude: /node_modules/
+            }, 
+            {
+                test: /\.react$/,
+                exclude: /node_modules/,
+                loader: 'single-react-loader'
             }
         ]
     }

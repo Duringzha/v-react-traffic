@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import { render } from 'react-dom';
+import MapTest from '../comp/v-map.js';
 
 render(
-    <div>Hello React!</div>,
+    <MapTest/>,
     document.getElementById('app')
 );
